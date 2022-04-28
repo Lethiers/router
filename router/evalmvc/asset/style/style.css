@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+div{
+    width: 250px;
+    height: auto;
+    border: solid lightgrey 1px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 20px 20px;
+    box-shadow: 5px 2px 2px grey;
+    margin: 50px;
+    background-color: lightgray;
+    
+}
+
