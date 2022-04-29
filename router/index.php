@@ -30,7 +30,8 @@ break;
 case $path === "/router/addUser":
 include './evalmvc/controler/controler_addUser.php';
 break;
+case $path === "/router/deconnexion":
+include './evalmvc/controler/controler_connexion.php';
+break;
 }
-
-
 ?>

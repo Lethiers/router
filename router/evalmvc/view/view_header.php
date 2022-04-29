@@ -10,7 +10,6 @@
     <header>
         <a href="/router/ajouterArticle">ajouter</a>
         <a href="/router/voirArticle">voir</a>
-        <a href="/router/modifierArticle">modifier</a>
-        <a href="/router/supprimerArticle">supprimer</a>
+        <a href="/router/deconnexion">deconnexion</a>
     </header>
     

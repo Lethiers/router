@@ -5,7 +5,6 @@
     include './evalmvc/view/view_connexion.php';
     session_start();
 
-
     $utilisateur = new Utilisateur(null,null,null,null);
 
     if (isset($_POST['mail_util'])&& !empty($_POST['mail_util']) && 
@@ -19,17 +18,8 @@
             header('Location: /router/voirArticle');
         }else {
             echo 'wrong password or login';
-        }
-        
+        }  
     }else {
         echo 'merci de remplir les champs !';
     }
-
-
-    // if(isset($_SESSION['id'])){
-    //     echo '<p>tu es connecté</p>';
-    //     echo ''.$_SESSION['id'].'';
-    // }
-
-
 ?>
